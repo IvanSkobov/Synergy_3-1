@@ -1,16 +1,7 @@
-# This is a sample Python script.
+# Запрашиваем данные у пользователя
+pet_type = input("Введите вид питомца: ")
+pet_age = input("Введите возраст питомца: ")
+pet_name = input("Введите кличку питомца: ")
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# Выводим результат в одном предложении
+print(f"Это {pet_type} по кличке \"{pet_name}\". Возраст: {pet_age} лет.")
